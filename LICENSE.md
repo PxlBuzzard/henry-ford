@@ -1,13 +1,3 @@
-# Henry Ford: The Man Who Fueled America
-
-![Screenshot of the website](https://cloud.githubusercontent.com/assets/512416/4622883/3677061c-5342-11e4-9e89-615ebcc9eb3a.png)
-
-This website was created by Daniel Jost, titled Henry Ford: The Man Who Fueled America and was in the Senior Division of [National History Day 2009](http://www.nationalhistoryday.org/). It won fourth place at the State level after qualifying at the regional level.
-
-I have left the content and presentation much the same as the original submission, with minor tweaks to keep the website working in modern browsers.
-
-## License
-
 The MIT License (MIT)
 
 Copyright (c) 2009, 2014 Daniel Jost
