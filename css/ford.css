@@ -1,0 +1,49 @@
+/* General */
+* {margin:0; padding:0;}
+body {background:#AAAAAA repeat; font:14px georgia,verdana,sans-serif;}
+a {color:#555555; text-decoration:none; cursor:default;}
+a:visited {color:#555555; text-decoration:none; cursor:default;}
+a:hover {color:#888888; cursor:default;}
+p {margin:3px 0 16px 5px; line-height: 1.4}
+ul {margin:0 0 0px 49px;}
+img {margin: 9px 5px 5px 5px;}
+
+/* Headers */
+h1 {color:#555; font-size:3.6em; letter-spacing:-3px; margin:0; text-align:right;}
+h2 {color:#555; font-size:1.6em; font-weight:bold; letter-spacing:-1px;}
+h3 {color:#111; font-size:1.6em; font-weight:bold; margin:-28px 10px 0 2px;}
+
+/* IDs */
+#title {margin:7px auto -13px; width:700px;}
+#container {background:#FFFFFF bottom left no-repeat; border:20px solid #555555; color:#000000; margin:0 auto 15px; padding:10px 0 5px 0; width:700px; line-height:1.3em;}
+#footer {margin:-20px auto -13px; width:700px;}
+
+#home {width: 600px; height: 400px; background: white; margin:0 0 0 49px;}
+#life {width: 600px; height: 400px; background: white; margin:0 0 0 49px;}
+#fmc {width: 600px; height: 400px; background: white; margin:0 0 0 49px;}
+#bib {width: 600px; height: 400px; background: white; margin:0 0 0 49px;}
+#noteicon {padding: 0; margin: 0 0 0 2px;}
+
+/* Tab Styling */
+.idTabs {margin:0 auto; width:560px;}
+.idTabs li { list-style:none; float:left;}
+.idTabs a {display:block; padding:4px 0; height:24px; width:140px; text-decoration:none !important; margin:0px; margin-left:0; font:12pt Calibri; color:#FFF; background:#222;}
+.idTabs a:hover {height:28px; padding:4px 0 6px; background:#0D0D0D; border-bottom:1px solid #181818;}
+.idTabs a.selected {height:30px; padding:4px 0 8px; background:#777; color:#000; font-weight:bold; border-bottom:none;}
+
+/* Style for miniTabs tabs */
+.miniTabs {background:#FFF; color:#000; padding:0 0; height:400px; width:600px; border:1px solid #222; margin:0px auto;}
+.miniTabs a {color:#555555; text-decoration:none;}
+.miniTabs a:visited {color:#555555; text-decoration:none;}
+.miniTabs a:hover {color:#888888;}
+.miniTabs li { list-style:none; float:left;}
+.miniTabs ul a {display:block; padding:6px 10px; text-decoration:none !important; margin:1px; margin-left:0; font:10px Verdana; color:#FFF; background:#444;}
+.miniTabs ul a:hover {cursor:default; color:#FFF; background:#000;}
+.miniTabs ul a.selected {margin-bottom:0; color:#000; font-weight:bold; background:#888; border-bottom:1px solid #FFF; cursor:default;}
+.miniTabs div {padding:10px 10px 8px 10px; *padding-top:3px; *margin-top:-15px; clear:left; background:#FFF; font-size:10pt; font-family:Georgia;}
+.miniTabs div a { color:#000; font-weight:bold;}
+
+/* Styling for different systems and browsers */
+.firefox #container {-moz-border-radius: 5px;} 
+.chrome #container {-webkit-border-radius: 5px;}
+.chrome #miniTabs {font:10pt Helvetica;}
